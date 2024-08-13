@@ -11,7 +11,7 @@ int main()
 
     // test enqueue method (push)
     q.push(1);
-    q.push(2);
+    q.push(2);  
     q.push(3);
     std::cout << "Queue after pushing 1, 2, 3: ";
 
