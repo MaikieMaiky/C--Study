@@ -4,7 +4,7 @@ CXXFLAGS = -Wall
 
 .PHONY: clean all run
 
-all: permutations_i permutations_ii subset_sum_i_naive
+all: permutations_i permutations_ii subset_sum_i
 
 permutations_i: permutations_i.cpp
 	$(CXX) $(CXXFLAGS) $^ -o $@
@@ -14,7 +14,7 @@ permutations_ii: permutations_ii.cpp
 	$(CXX) $(CXXFLAGS) $^ -o $@
 	./$@
 
-subset_sum_i_naive: subset_sum_i_naive.cpp
+subset_sum_i: subset_sum_i.cpp
 	$(CXX) $(CXXFLAGS) $^ -o $@
 	./$@
 
