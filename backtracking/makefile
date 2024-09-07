@@ -2,7 +2,7 @@
 CXX = g++
 CXXFLAGS = -Wall
 
-.PHONY: clean all run
+.PHONY: clean all
 
 all: permutations_i permutations_ii subset_sum_i subset_sum_ii n_queens
 
