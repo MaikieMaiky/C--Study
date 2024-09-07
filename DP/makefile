@@ -8,6 +8,7 @@ all: min_path_sum
 
 %: %.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $<
+	./$@
 
 clean:
-	rm -f *.exe
+	@del /Q *.exe

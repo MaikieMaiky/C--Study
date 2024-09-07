@@ -107,3 +107,15 @@ int minPathSumDP2(vector<vector<int>> &grid)
     // return result
     return dp[m - 1];
 }
+
+int main()
+{
+    // 测试用例
+
+    vector<vector<int>> grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
+
+    // print result
+    cout << "The minimum path sum is: " << minPathSumDP2(grid) << endl;
+    
+    return 0;
+}
